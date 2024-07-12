@@ -1,4 +1,4 @@
-import '../../../flutter_neumorphic.dart';
+import '../../../flutter_neumorphic_fix.dart';
 
 class NeumorphicFlutterLogoPathProvider extends NeumorphicPathProvider {
   @override

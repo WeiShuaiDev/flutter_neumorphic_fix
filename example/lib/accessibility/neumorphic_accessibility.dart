@@ -1,6 +1,6 @@
 import 'package:example/lib/color_selector.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic_fix.dart';
 
 class NeumorphicAccessibility extends StatefulWidget {
   @override

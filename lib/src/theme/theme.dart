@@ -3,10 +3,9 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' show IconThemeData, TextTheme;
 import 'package:flutter/painting.dart';
-import 'package:flutter_neumorphic/src/theme/app_bar.dart';
-import 'package:flutter_neumorphic/src/widget/container.dart';
-
-import '../../flutter_neumorphic.dart';
+import 'package:flutter_neumorphic_fix/src/theme/app_bar.dart';
+import 'package:flutter_neumorphic_fix/src/widget/container.dart';
+import '../../flutter_neumorphic_fix.dart';
 import '../colors.dart';
 import '../light_source.dart';
 import '../shape.dart';

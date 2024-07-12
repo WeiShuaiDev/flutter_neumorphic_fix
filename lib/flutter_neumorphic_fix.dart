@@ -1,4 +1,4 @@
-library flutter_neumorphic;
+library flutter_neumorphic_fix;
 
 export 'package:flutter/material.dart'
     show

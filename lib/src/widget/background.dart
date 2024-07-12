@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_neumorphic/src/theme/neumorphic_theme.dart';
+import 'package:flutter_neumorphic_fix/src/theme/neumorphic_theme.dart';
 
 /// A container that takes the current [NeumorphicTheme] baseColor as backgroundColor
 /// @see [NeumorphicTheme]

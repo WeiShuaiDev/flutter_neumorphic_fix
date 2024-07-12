@@ -1,6 +1,6 @@
 import 'package:example/lib/color_selector.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic_fix.dart';
 
 void main() => runApp(NeumorphicPlayground());
 

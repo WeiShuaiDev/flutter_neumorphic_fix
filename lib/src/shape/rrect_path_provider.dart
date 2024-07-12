@@ -1,4 +1,4 @@
-import '../../flutter_neumorphic.dart';
+import '../../flutter_neumorphic_fix.dart';
 import 'neumorphic_path_provider.dart';
 
 class RRectPathProvider extends NeumorphicPathProvider {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic_fix/flutter_neumorphic_fix.dart';
 
 class NeumorphicApp extends StatelessWidget {
   final String title;
@@ -36,7 +36,7 @@ class NeumorphicApp extends StatelessWidget {
 
   final bool debugShowMaterialGrid;
 
-  const NeumorphicApp({
+  NeumorphicApp({
     Key? key,
     this.title = '',
     this.color,
@@ -72,6 +72,8 @@ class NeumorphicApp extends StatelessWidget {
     this.actions,
   }) : super(key: key);
 
+  final ThemeData themeData = ThemeData();
+
   ThemeData _getMaterialTheme(NeumorphicThemeData theme) {
     final color = theme.accentColor;
 
@@ -86,13 +88,13 @@ class NeumorphicApp extends StatelessWidget {
 
     return ThemeData(
       primaryColor: theme.accentColor,
-      accentColor: theme.variantColor,
+      colorScheme: themeData.colorScheme.copyWith(secondary: theme.variantColor),
       iconTheme: theme.iconTheme,
       brightness: ThemeData.estimateBrightnessForColor(theme.baseColor),
-      primaryColorBrightness:
-          ThemeData.estimateBrightnessForColor(theme.accentColor),
-      accentColorBrightness:
-          ThemeData.estimateBrightnessForColor(theme.variantColor),
+      // primaryColorBrightness:
+      //     ThemeData.estimateBrightnessForColor(theme.accentColor),
+      // accentColorBrightness:
+      //     ThemeData.estimateBrightnessForColor(theme.variantColor),
       textTheme: theme.textTheme,
       scaffoldBackgroundColor: theme.baseColor,
     );

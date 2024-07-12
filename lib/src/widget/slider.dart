@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic_fix/flutter_neumorphic_fix.dart';
 
 import 'container.dart';
 import 'progress.dart';

@@ -1,7 +1,7 @@
 import 'package:example/tips/tips_home.dart';
 import 'package:example/widgets/widgets_home.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic_fix.dart';
 
 import 'accessibility/neumorphic_accessibility.dart';
 import 'playground/neumorphic_playground.dart';

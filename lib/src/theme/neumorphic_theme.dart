@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../../flutter_neumorphic.dart';
+import '../../flutter_neumorphic_fix.dart';
 import 'inherited_neumorphic_theme.dart';
 import 'theme.dart';
 import 'theme_wrapper.dart';
@@ -116,10 +116,7 @@ class NeumorphicTheme extends StatefulWidget {
 
   static NeumorphicThemeData currentTheme(BuildContext context) {
     final provider = NeumorphicTheme.of(context);
-    if (provider == null) return neumorphicDefaultTheme;
-    return provider.current == null
-        ? neumorphicDefaultTheme
-        : provider.current!;
+    return provider?.current ?? neumorphicDefaultTheme;
   }
 }
 

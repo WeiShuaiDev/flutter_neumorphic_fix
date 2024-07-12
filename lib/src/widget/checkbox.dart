@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_neumorphic/src/neumorphic_icons.dart';
-import 'package:flutter_neumorphic/src/widget/container.dart';
+import 'package:flutter_neumorphic_fix/src/neumorphic_icons.dart';
+import 'package:flutter_neumorphic_fix/src/widget/container.dart';
 
 import '../neumorphic_box_shape.dart';
 import '../theme/neumorphic_theme.dart';

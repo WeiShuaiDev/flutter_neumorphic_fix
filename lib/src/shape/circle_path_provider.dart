@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import '../../flutter_neumorphic.dart';
+import '../../flutter_neumorphic_fix.dart';
 import 'neumorphic_path_provider.dart';
 
 class CirclePathProvider extends NeumorphicPathProvider {

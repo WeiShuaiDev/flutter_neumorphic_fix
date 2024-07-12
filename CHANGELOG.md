@@ -1,3 +1,5 @@
+## 3.2.1
+process flutter version 3.19 expired api
 ## 3.2.0
 
 * Remove generated localization class ([#215](https://github.com/Idean/Flutter-Neumorphic/pull/215))

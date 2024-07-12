@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-import 'package:flutter_neumorphic/src/widget/back_button.dart';
+import 'package:flutter_neumorphic_fix/flutter_neumorphic_fix.dart';
+import 'package:flutter_neumorphic_fix/src/widget/back_button.dart';
 
 class NeumorphicAppBar extends StatefulWidget implements PreferredSizeWidget {
   static const toolbarHeight = kToolbarHeight + 16 * 2;
@@ -178,10 +178,8 @@ class NeumorphicAppBarState extends State<NeumorphicAppBar> {
 
     Widget? title = widget.title;
     if (title != null) {
-      final AppBarTheme appBarTheme = AppBarTheme.of(context);
       title = DefaultTextStyle(
-        style: (appBarTheme.textTheme?.headline5 ??
-                Theme.of(context).textTheme.headline5!)
+        style: Theme.of(context).textTheme.headlineSmall!
             .merge(widget.textStyle ?? nTheme?.current?.appBarTheme.textStyle),
         softWrap: false,
         overflow: TextOverflow.ellipsis,

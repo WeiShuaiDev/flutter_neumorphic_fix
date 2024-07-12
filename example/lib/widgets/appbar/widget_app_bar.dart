@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic_fix.dart';
 
 class AppBarWidgetPage extends StatelessWidget {
   AppBarWidgetPage({Key key}) : super(key: key);

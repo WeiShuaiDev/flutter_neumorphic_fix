@@ -1,6 +1,5 @@
-import 'dart:ui';
 
-import '../../../flutter_neumorphic.dart';
+import '../../../flutter_neumorphic_fix.dart';
 import 'abstract_neumorphic_painter_cache.dart';
 
 class NeumorphicPainterCache extends AbstractNeumorphicEmbossPainterCache {
